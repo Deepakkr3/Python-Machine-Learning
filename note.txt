@@ -1,0 +1,9 @@
+create env
+conda create -p venv python==3.10
+create requirement.txt
+write whatever librery want to install in requirement file 
+activate that env 
+activate venv
+install the packega
+ pip install -r .\requirement.txt
+ python -m ipykernel install --user --name ml310 --display-name "Python 3.10 (ml310)"
